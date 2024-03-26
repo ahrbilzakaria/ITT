@@ -8,7 +8,9 @@ export const Topbar = () => {
   return (
     <div className={styles.topbar}>
       <div className={styles.container}>
-        <img className={styles.logo} src={logo} alt="logo" />
+        <a href="/home">
+          <img className={styles.logo} src={logo} alt="logo" />
+        </a>
         <div className={styles.adress}>
           <div className={styles.element}>
             <img className={styles.icon} src={svg1} alt="icon" />
@@ -19,13 +21,21 @@ export const Topbar = () => {
           <div className={styles.element}>
             <img className={styles.icon} src={svg2} alt="icon" />
             <div className={styles.text}>
-              <p>Coming soon</p>
+              <p>
+                <a href="mailto: Informeltransittransport@gmail.com">
+                  Email <br />
+                  Informeltransittransport@gmail.com
+                </a>
+              </p>
             </div>
           </div>
           <div className={styles.element}>
             <img className={styles.icon} src={svg3} alt="icon" />
             <div className={styles.text}>
-              <p>Coming soon</p>
+              <p>
+                +212 630586631 <br />
+                +212 677246559
+              </p>
             </div>
           </div>
         </div>
