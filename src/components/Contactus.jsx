@@ -54,8 +54,8 @@ export const Contactus = () => {
         </div>
         <h2>Get in touch with us</h2>
         <p className={styles.comment}>
-          Leverage agile frameworks to provide a robust synopsis for strategy
-          foster collaborative thinking to further the overall value.
+          Contact us now for seamless logistics and personalized solutions
+          tailored to your business needs.
         </p>
         <form ref={form} className={styles.content}>
           <div className={styles.data}>
