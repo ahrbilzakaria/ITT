@@ -14,7 +14,7 @@ export const Navigation = () => {
             </li>
             <li>
               <a className={styles.page} href="/about">
-                About
+                About Us
               </a>
             </li>
             <li>

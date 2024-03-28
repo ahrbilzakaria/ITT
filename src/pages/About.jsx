@@ -10,47 +10,44 @@ export const About = () => {
     <div className={styles.about}>
       <img className={styles.background} src={background} alt="background" />
       <div className={styles.title}>
-        <h1>About</h1>
+        <h1>About Us</h1>
       </div>
       <div className={styles.container}>
         <div className={styles.section1}>
           <img className={styles.img1} src={img1} alt="img1" />
           <p>
-            Chez Infotransit & Transport, nous nous engageons à simplifier et à
-            optimiser les processus logistiques et de transport pour les petites
-            et moyennes entreprises . Forts de notre expertise et de notre
-            compréhension approfondie des défis rencontrés par ces entreprises,
-            nous avons développé une plateforme innovante qui leur offre des
-            solutions sur mesure, adaptées à leurs besoins spécifiques. Notre
-            équipe expérimentée travaille en étroite collaboration avec nos
-            clients pour identifier les inefficacités dans leurs opérations
-            logistiques et concevoir des stratégies personnalisées pour les
-            surmonter. Que ce soit pour gérer les expéditions, optimiser les
-            itinéraires ou améliorer la visibilité des stocks, nous sommes là
-            pour fournir des solutions pratiques et rentables.
+            At Infotransit & Transport, we are committed to simplifying and
+            optimizing logistics and transportation processes for small and
+            medium-sized businesses. Leveraging our expertise and deep
+            understanding of the challenges faced by these enterprises, we have
+            developed an innovative platform that offers tailored solutions to
+            meet their specific needs. Our experienced team works closely with
+            our clients to identify inefficiencies in their logistics operations
+            and design personalized strategies to overcome them. Whether it's
+            managing shipments, optimizing routes, or improving inventory
+            visibility, we are here to provide practical and cost-effective
+            solutions.
           </p>
         </div>
         <div className={styles.section}>
           <img src={img2} alt="img2" />
           <p>
-            Ce qui distingue Infotransit & Transport, c’est notre approche axée
-            sur le client et notre engagement à fournir un service exceptionnel.
-            Nous comprenons que chaque entreprise a des besoins uniques, c’est
-            pourquoi nous mettons un point d’honneur à écouter attentivement nos
-            clients et à leur offrir des solutions qui répondent précisément à
-            leurs exigences.
+            What sets Infotransit & Transport apart is our customer-focused
+            approach and commitment to delivering exceptional service. We
+            understand that every business has unique needs, which is why we
+            make it a priority to listen carefully to our clients and offer
+            solutions that precisely meet their requirements.
           </p>
         </div>
         <div className={`${styles.section} ${styles.except}`}>
           <img src={img3} alt="img3" />
           <p>
-            En choisissant Infotransit & Transport comme partenaire pour leurs
-            besoins logistiques et de transport, les entreprises peuvent
-            s’attendre à une collaboration transparente, à une efficacité
-            opérationnelle accrue et à une réduction des coûts. Nous sommes
-            fiers de contribuer au succès de nos clients en leur offrant les
-            outils et le soutien nécessaires pour prospérer dans un
-            environnement commercial dynamique et concurrentiel.
+            By choosing Infotransit & Transport as their logistics and
+            transportation partner, businesses can expect seamless
+            collaboration, increased operational efficiency, and cost reduction.
+            We take pride in contributing to our clients' success by providing
+            them with the tools and support needed to thrive in a dynamic and
+            competitive business environment.
           </p>
         </div>
       </div>

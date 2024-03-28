@@ -90,7 +90,7 @@
 
 .input::placeholder {
   color: #d8d8d8;
-  font-size: clamp(0.7rem, var(--min-font-size), 0.7rem);
+  font-size: clamp(0.7rem, 3vw, 0.7rem);
   font-weight: 300;
 }
 
@@ -121,7 +121,7 @@
 
 .form button {
   color: #23212a;
-  font-size: clamp(0.5rem, var(--min-font-size), 1rem);
+  font-size: clamp(0.7rem, var(--min-font-size), 1rem);
   font-weight: 600;
   line-height: 135.023%;
   background-image: url(../assets/button.webp);
@@ -129,6 +129,7 @@
   padding-inline: 2rem;
   padding-block: 1rem;
   margin-top: 1.5rem;
+  cursor: pointer;
 }
 
 .content {
@@ -138,6 +139,9 @@
   width: 80%;
 }
 @media only screen and (max-width: 1175px) {
+  .contactus {
+    width: 100%;
+  }
   .comment {
     font-size: 1.5vw;
   }
@@ -148,5 +152,8 @@
     font-size: 3vw;
     width: 80%;
     text-align: center;
+  }
+  .form {
+    width: 100%;
   }
 }

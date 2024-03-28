@@ -1,6 +1,9 @@
 .about {
   position: relative;
 }
+.about img {
+  border-top: 4px solid #ffd651;
+}
 .background {
   position: absolute;
   z-index: -10;
@@ -38,10 +41,15 @@
   margin-block: 7rem;
 }
 .container p {
-  font-size: clamp(0.7rem, 1.5vw, 1.2rem);
+  font-size: clamp(0.9rem, 1.5vw, 1.2rem);
   color: #666c89;
   font-weight: 400;
   line-height: 151.523%;
+}
+.container p::first-letter {
+  font-size: clamp(1.6rem, 1.5vw, 2rem);
+  color: #404456;
+  font-weight: 600;
 }
 .section {
   display: flex;
