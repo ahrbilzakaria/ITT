@@ -18,7 +18,7 @@
   width: 100%;
   align-items: center;
   min-height: 120vh;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .container {
