@@ -3,7 +3,7 @@
 }
 .about img {
   border-top: 4px solid #ffd651;
-  object-fit: fill;
+  object-fit: cover;
 }
 .background {
   position: absolute;
