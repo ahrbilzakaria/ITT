@@ -130,12 +130,13 @@
   max-width: 45%;
 }
 .service p {
-  font-size: clamp(0.35rem, 3vw, 0.8rem);
+  font-size: clamp(0.6rem, 3vw, 0.8rem);
   line-height: 151.523%;
   margin-top: 0.5rem;
 }
 .service h3 {
   color: #1c1f35;
+  font-size: clamp(1rem, 3vw, 1.3rem);
 }
 .home {
   display: flex;
@@ -176,10 +177,19 @@
     line-height: 165%;
   }
   .services .about p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     line-height: 165%;
+  }
+  .services .Title {
+    width: 100%;
+  }
+  .service {
+    max-width: 70%;
   }
   .ticket {
     margin-bottom: 1rem;
+  }
+  .scontainer {
+    gap: 2rem;
   }
 }

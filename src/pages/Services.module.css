@@ -1,0 +1,9 @@
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 5vw;
+  height: 98vh;
+  color: #091242;
+}
