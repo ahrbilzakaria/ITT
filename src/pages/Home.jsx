@@ -2,6 +2,9 @@ import React from "react";
 import styles from "./Home.module.css";
 import { Contactus } from "../components/Contactus";
 import background from "../assets/background-home.webp";
+import ico1 from "../assets/services-icons/Icon.svg";
+import ico2 from "../assets/services-icons/Icon-1.svg";
+import ico3 from "../assets/services-icons/Icon-2.svg";
 
 export const Home = () => {
   return (
@@ -50,17 +53,41 @@ export const Home = () => {
               </div>
               <h2>Our Main Services</h2>
             </div>
-            <p>
-              Infotransit & Transport offers a comprehensive suite of services,
-              including customs clearance and transportation solutions tailored
-              to meet diverse business needs. Specializing in efficient route
-              optimization and secure shipment management, we ensure timely
-              deliveries while minimizing costs. Our innovative platform
-              provides real-time inventory visibility, empowering businesses to
-              streamline operations and drive success. Whether managing imports,
-              exports, or optimizing supply chains, we're committed to
-              simplifying logistics for our clients.
-            </p>
+            <div className={styles.scontainer}>
+              <div className={styles.service}>
+                <img src={ico1} alt="icon" />
+                <div>
+                  <h3>Transportation (Maritime, Air, Road)</h3>
+                  <p>
+                    We offer efficient transportation solutions via maritime,
+                    air, and road networks for timely delivery of goods
+                    worldwide.
+                  </p>
+                </div>
+              </div>
+              <div className={styles.service}>
+                <img src={ico2} alt="icon" />
+                <div>
+                  <h3>Customs Clearance</h3>
+                  <p>
+                    Our expert team ensures smooth customs clearance, minimizing
+                    delays and ensuring compliance with regulations for seamless
+                    international trade.
+                  </p>
+                </div>
+              </div>
+              <div className={styles.service}>
+                <img src={ico3} alt="icon" />
+                <div>
+                  <h3>Legal Declaration</h3>
+                  <p>
+                    Streamline administrative tasks with our legal declaration
+                    services, handling documentation efficiently to keep your
+                    operations running smoothly.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

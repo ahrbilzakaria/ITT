@@ -18,7 +18,7 @@
   width: 100%;
   align-items: center;
   min-height: 120vh;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .container {
@@ -66,7 +66,7 @@
   margin-inline: auto;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
   background-color: white;
   padding: 6rem;
   border-right: 4px solid #ffd651;
@@ -88,7 +88,7 @@
   max-width: 42rem;
   min-width: 0.66rem;
   color: #666c89;
-  font-size: clamp(0.8rem, 4vw, 1.3rem);
+  font-size: clamp(0.8rem, 2.5vw, 1.3rem);
   font-weight: 500;
   line-height: 2.1875rem; /* 165.485% */
 }
@@ -113,6 +113,29 @@
 }
 .services .about {
   border: none;
+  gap: 4rem;
+}
+.services .Title {
+  width: 50%;
+}
+.scontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.service {
+  display: flex;
+  align-items: start;
+  max-width: 45%;
+}
+.service p {
+  font-size: clamp(0.35rem, 3vw, 0.8rem);
+  line-height: 151.523%;
+  margin-top: 0.5rem;
+}
+.service h3 {
+  color: #1c1f35;
 }
 .home {
   display: flex;
@@ -149,7 +172,11 @@
     align-items: start !important;
   }
   .about p {
-    font-size: 2.5vw;
+    font-size: 2vw;
+    line-height: 165%;
+  }
+  .services .about p {
+    font-size: 1.5vw;
     line-height: 165%;
   }
   .ticket {
